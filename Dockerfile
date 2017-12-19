@@ -1,4 +1,4 @@
-FROM docker-registry-default.osrouter.associatesys.local/tda-images/tda-rhel7-base:latest
+FROM tda-images/tda-rhel7-base:latest
  
 MAINTAINER Mike LaCourse 
 
