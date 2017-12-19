@@ -1,4 +1,4 @@
-FROM tda-images/tda_rhel7:1.0
+FROM tda-images/tda-rhel7-test:latest
 MAINTAINER Kevin Kessler 
 
 ENV KONG_VERSION 0.11.2
