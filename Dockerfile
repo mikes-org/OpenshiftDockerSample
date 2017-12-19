@@ -7,7 +7,6 @@ ENV KONG_VERSION 0.11.2
 
 COPY docker-entrypoint.sh /docker-entrypoint.sh
 #COPY kong-community-edition-0.11.2.noarch.rpm /kong-community-edition-0.11.2.noarch.rpm
-RUN subscription-manager refresh
 ##RUN yum install -y kong-community-edition-0.11.2.noarch.rpm --nogpgcheck && \
 RUN yum install -y wget https://bintray.com/kong/kong-community-edition-rpm/download_file?file_path=dists/kong-community-edition-0.11.2.el7.noarch.rpm --nogpgcheck && \
 
