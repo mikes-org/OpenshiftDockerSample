@@ -1,6 +1,5 @@
-#FROM tda-images/rhel7:latest
-#FROM docker-registry-default.osrouter.associatesys.local/tda-images/tda-rhel7-base
-FROM registry.access.redhat.com/rhel7 
+FROM tda-images/tda-rhel7-base:latest
+#FROM registry.access.redhat.com/rhel7 
 MAINTAINER Mike LaCourse 
 
 ENV KONG_VERSION 0.11.2
